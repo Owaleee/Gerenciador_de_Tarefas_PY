@@ -10,7 +10,7 @@ def criar_nova_tarefa():
         [sg.Button('Nova Tarefa'),sg.Button('Resetar')]
     ]
 
-    return sg.Window('Todo List',layout=layout,finalize=True)
+    return sg.Window('Lista de Tarefas',layout=layout,finalize=True)
 # Criar a janela
 janela = criar_nova_tarefa()
 # Criar as regras dessa janela
